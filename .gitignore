@@ -12,8 +12,8 @@ __pycache__/
 # Data / artifacts
 data/
 datasets/
-checkpoints/
 models/
+checkpoints_6/
 fusion/
 *.pth
 *.bin
