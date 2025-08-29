@@ -339,7 +339,7 @@ def build_name_list():
         else:
             x = vector_from_row_canon(rescale_rate_stats(rc, False, train_stats_p4, prospect_stats_p), featP4)
         if not coverage_nonzero(x): continue
-        name = str(row.get("Name", "")).strip()
+        name = str(row.get("name", "")).strip().title()
         if not name: continue
         local_i = len(kept)
         kept.append(name)
