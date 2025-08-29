@@ -18,7 +18,7 @@ NUM_CLASSES = 4
 EMBED_DIM = 1024
 
 # ── Paths ────────────────────────────────────────────────────────────────────
-PROSPECTS_PATH = "combined_prospects.jsonl"
+PROSPECTS_PATH = "cleaned_prospects.jsonl"
 
 # 2-class (binary MLB) models
 STATS_P_CKPT_2 = "checkpoints/statsP.pt"
