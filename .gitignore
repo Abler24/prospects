@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.DS_Store
+
+# Env / tooling
+.venv/
+.env
+.env.*
+
+# Data / artifacts
+data/
+datasets/
+checkpoints/
+models/
+fusion/
+*.pth
+*.bin
+*.onnx
+*.csv
+*.parquet
+*.feather
+
+
+# Notebooks / logs
+*.ipynb
+*.log
+
+# OS/editor junk
+.idea/
+.vscode/
